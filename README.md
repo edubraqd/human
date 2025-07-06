@@ -26,6 +26,23 @@ npm run build
 \`\`\`bash
 npm start
 \`\`\`
+## 🚀 Deploying with Cloudflare
+1. Export your Cloudflare API token and zone ID:
+```bash
+export CF_API_TOKEN=your_token
+export CF_ZONE_ID=your_zone_id
+export DOMAIN=yourdomain.com
+export SERVER_IP=your_server_ip
+```
+2. Run the helper script to create DNS records:
+```bash
+./deploy-cloudflare.sh
+```
+3. After DNS is configured and nameservers updated, deploy the site:
+```bash
+sudo ./deploy-with-nginx.sh
+```
+
 
 ## 🌐 Features
 
