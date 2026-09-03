@@ -60,3 +60,5 @@ human-token-website/
 ## 📝 License
 
 © 2025 $HUMAN Token. All rights reserved.
+
+<!-- badge run 2026-09-03 -->
